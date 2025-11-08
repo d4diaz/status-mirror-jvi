@@ -1,11 +1,11 @@
 {
   "ok": true,
   "format": "json",
-  "count": 53,
+  "count": 54,
   "meta": {
-    "total": 53,
+    "total": 54,
     "start": 0,
-    "end": 53
+    "end": 54
   },
   "data": [
     {
@@ -34,6 +34,13 @@
       "Employer Name": "Rituals Cosmetics",
       "Employer Website": "https://www.rituals.com/",
       "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Rituals-Cosmetics-Job-Vacancies.jpg",
+      "Employer Description": ""
+    },
+    {
+      "Timestamp": "2025-11-08T12:44:13.131Z",
+      "Employer Name": "Sevenoways Innovations",
+      "Employer Website": "https://sevenoways.com",
+      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Sevenoways-Innovations-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
