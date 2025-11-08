@@ -1,50 +1,62 @@
-name: Sync JSON to GitHub Pages
+name: Sync data.json from Google Script
 
 on:
-  workflow_dispatch: {}           # manual run
+  workflow_dispatch:
+  push:
+    branches: [ main ]
   schedule:
-    - cron: "*/30 * * * *"       # every 30 minutes; adjust as you like
+    - cron: "*/5 * * * *"  # every 5 minutes
 
 permissions:
   contents: write
 
+concurrency:
+  group: sync-data-json
+  cancel-in-progress: true
+
 jobs:
   sync:
     runs-on: ubuntu-latest
+    env:
+      # 🔗 Your Google Apps Script JSON endpoint (keep it quoted!)
+      SOURCE_URL: "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLhS4bQMIprExnoHY-7PDwpbvmDoT9bOdm8fVf9hWpWEImyKNlomFCy7rp17YrZIA1ZOchdw8m0I4oeNRuKZJyaj_pjq293IZbSzF6wcIeSV2AuCbypN5PVn-MFMgrR_OC90gESx321hUWKtOTmxKigtUgAxiU7Y1VLPlJG-BYN3qIzyxFdBub0KbZ5HotIh2psacZyfWbHtXnpgnDDk0XSZRFYVSB_lZvVC4v7XEjfW5N96qRluEbhQ9RFl573WzXA1lgReygueLcFhZ7jX9r7cY9Juy5MQWBwPX2-m&lib=M-9fkNAuJxfCPAW3bmmV3l_zVp-juPsWc"
+
     steps:
-      - name: Checkout
+      - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Fetch JSON
-        env:
-          SOURCE_URL: ${{ vars.SOURCE_URL }}
-        run: |
-          set -euo pipefail
-          mkdir -p docs
-          # Fetch with: -L follow redirects, -s silent, -S show errors, -f fail on HTTP >=400
-          # We also set a basic User-Agent and accept JSON to help Google endpoints.
-          curl -LsfS \
-            -H "Accept: application/json" \
-            -H "User-Agent: GitHubActions-curl" \
-            "$SOURCE_URL" -o docs/data.json
+      - name: Install jq (for JSON validation)
+        run: sudo apt-get update && sudo apt-get install -y jq
 
-          # Optional: validate JSON (jq is pre-installed on ubuntu-latest)
-          jq . docs/data.json > /dev/null
+      - name: Fetch latest JSON
+        run: |
+          set -e
+          # Use --fail to exit non-zero on HTTP errors (curl exit 22 = non-2xx)
+          # Use -L to follow redirects, and -S -s to show errors but keep output quiet
+          http_code=$(curl -L -s -S -w "%{http_code}" -o fetched.json "$SOURCE_URL")
+          if [ "$http_code" != "200" ]; then
+            echo "Source returned HTTP $http_code"
+            cat fetched.json || true
+            exit 1
+          fi
+
+          # Validate JSON; pretty-print to keep diffs clean
+          if ! jq . fetched.json > data.pretty.json 2>/dev/null; then
+            echo "Fetched content is not valid JSON:"
+            cat fetched.json
+            exit 1
+          fi
+          mv data.pretty.json data.json
 
       - name: Commit if changed
         run: |
           set -e
-          if git diff --quiet -- docs/data.json; then
-            echo "No changes in docs/data.json"
+          if git diff --quiet -- data.json; then
+            echo "No changes to commit."
             exit 0
           fi
-          git config user.name  "github-actions[bot]"
+          git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add docs/data.json
-          git commit -m "chore: update data.json [skip ci]"
+          git add data.json
+          git commit -m "chore: update data.json from source"
           git push
-
-      - name: Show file size and head
-        run: |
-          wc -c docs/data.json
-          head -c 300 docs/data.json || true
