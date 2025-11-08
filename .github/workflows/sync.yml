@@ -5,7 +5,7 @@ on:
   push:
     branches: [ main ]
   schedule:
-    - cron: "*/5 * * * *"  # every 5 minutes
+    - cron: "*/5 * * * *"  # every 5 minutes (best-effort)
 
 permissions:
   contents: write
@@ -18,29 +18,33 @@ jobs:
   sync:
     runs-on: ubuntu-latest
     env:
-      # 🔗 Your Google Apps Script JSON endpoint (keep it quoted!)
       SOURCE_URL: "https://script.googleusercontent.com/macros/echo?user_content_key=AehSKLhS4bQMIprExnoHY-7PDwpbvmDoT9bOdm8fVf9hWpWEImyKNlomFCy7rp17YrZIA1ZOchdw8m0I4oeNRuKZJyaj_pjq293IZbSzF6wcIeSV2AuCbypN5PVn-MFMgrR_OC90gESx321hUWKtOTmxKigtUgAxiU7Y1VLPlJG-BYN3qIzyxFdBub0KbZ5HotIh2psacZyfWbHtXnpgnDDk0XSZRFYVSB_lZvVC4v7XEjfW5N96qRluEbhQ9RFl573WzXA1lgReygueLcFhZ7jX9r7cY9Juy5MQWBwPX2-m&lib=M-9fkNAuJxfCPAW3bmmV3l_zVp-juPsWc"
 
     steps:
       - name: Check out repo
         uses: actions/checkout@v4
 
-      - name: Install jq (for JSON validation)
+      - name: Install jq
         run: sudo apt-get update && sudo apt-get install -y jq
 
       - name: Fetch latest JSON
         run: |
           set -e
-          # Use --fail to exit non-zero on HTTP errors (curl exit 22 = non-2xx)
-          # Use -L to follow redirects, and -S -s to show errors but keep output quiet
-          http_code=$(curl -L -s -S -w "%{http_code}" -o fetched.json "$SOURCE_URL")
-          if [ "$http_code" != "200" ]; then
-            echo "Source returned HTTP $http_code"
+          # Add cache-bust + retries to reduce transient 4xx/5xx flakiness
+          BUSTER=$(date +%s)
+          HTTP_CODE=$(curl -L -s -S \
+            --retry 3 --retry-delay 2 --retry-all-errors \
+            -H "Cache-Control: no-cache" \
+            -H "Pragma: no-cache" \
+            -H "User-Agent: status-mirror/1.0" \
+            -w "%{http_code}" -o fetched.json "${SOURCE_URL}&_=${BUSTER}")
+          echo "HTTP_CODE=$HTTP_CODE"
+          if [ "$HTTP_CODE" != "200" ]; then
+            echo "Source returned HTTP $HTTP_CODE"
+            echo "Body:"
             cat fetched.json || true
             exit 1
           fi
-
-          # Validate JSON; pretty-print to keep diffs clean
           if ! jq . fetched.json > data.pretty.json 2>/dev/null; then
             echo "Fetched content is not valid JSON:"
             cat fetched.json
