@@ -10,380 +10,380 @@
   "data": [
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Abbvie Ireland",
-      "Employer Website": "https://www.abbvie.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/abbvie-job-vacancies.jpg",
+      "employer": "Abbvie Ireland",
+      "website": "https://www.abbvie.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/abbvie-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T20:59:16.539Z",
-      "Employer Name": "Bon Secours Health System",
-      "Employer Website": "https://www.bonsecours.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Bon-Secours-Health-System-Job-Vacancies.jpg",
+      "employer": "Bon Secours Health System",
+      "website": "https://www.bonsecours.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Bon-Secours-Health-System-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T21:00:03.813Z",
-      "Employer Name": "GSW Solutions",
-      "Employer Website": "https://gswsolutions.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/GSW-Solutions-Job-Vacancies.jpg",
+      "employer": "GSW Solutions",
+      "website": "https://gswsolutions.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/GSW-Solutions-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T23:42:17.759Z",
-      "Employer Name": "Rituals Cosmetics",
-      "Employer Website": "https://www.rituals.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Rituals-Cosmetics-Job-Vacancies.jpg",
+      "employer": "Rituals Cosmetics",
+      "website": "https://www.rituals.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Rituals-Cosmetics-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-08T12:44:13.131Z",
-      "Employer Name": "Sevenoways Innovations",
-      "Employer Website": "https://sevenoways.com",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Sevenoways-Innovations-Job-Vacancies.jpg",
+      "employer": "Sevenoways Innovations",
+      "website": "https://sevenoways.com",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Sevenoways-Innovations-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Atlantic Care",
-      "Employer Website": "https://atlanticcare.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Atlantic-Care-Job-Vacancies.jpg",
+      "employer": "Atlantic Care",
+      "website": "https://atlanticcare.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Atlantic-Care-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Atlantic Technological University",
-      "Employer Website": "https://atu.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/07/atu-jobs.jpg",
+      "employer": "Atlantic Technological University",
+      "website": "https://atu.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/07/atu-jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Brothers of Charity Services Ireland",
-      "Employer Website": "https://www.brothersofcharity.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/07/BOCSI-Brothers-of-Charity-Services-Job-Vacancies.jpg",
+      "employer": "Brothers of Charity Services Ireland",
+      "website": "https://www.brothersofcharity.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/07/BOCSI-Brothers-of-Charity-Services-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Bus Eireann",
-      "Employer Website": "https://www.buseireann.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/bus-eireann-job-vacancies.jpg",
+      "employer": "Bus Eireann",
+      "website": "https://www.buseireann.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/bus-eireann-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Central Remedial Clinic",
-      "Employer Website": "https://crc.ie",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/09/CRC-Central-Remedial-Clinic-Job-Vacancies.jpg",
+      "employer": "Central Remedial Clinic",
+      "website": "https://crc.ie",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/09/CRC-Central-Remedial-Clinic-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Cheshire Ireland",
-      "Employer Website": "https://www.cheshire.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/09/Cheshire-Foundation-Job-Vacancies.jpg",
+      "employer": "Cheshire Ireland",
+      "website": "https://www.cheshire.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/09/Cheshire-Foundation-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Children's Health Ireland",
-      "Employer Website": "https://www.childrenshealthireland.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/childrens-health-ireland-Job-Vacancies.jpg",
+      "employer": "Children's Health Ireland",
+      "website": "https://www.childrenshealthireland.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/childrens-health-ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Cognizant Technology Solutions Ireland",
-      "Employer Website": "https://www.cognizant.com/uk/en",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Cognizant-Technology-Solutions-Ireland-Job-Vacancies.jpg",
+      "employer": "Cognizant Technology Solutions Ireland",
+      "website": "https://www.cognizant.com/uk/en",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Cognizant-Technology-Solutions-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Community Employment Scheme Jobs",
-      "Employer Website": "",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Community-Employment-Scheme-Jobs.jpg",
+      "employer": "Community Employment Scheme Jobs",
+      "website": "",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Community-Employment-Scheme-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Cork University Hospital",
-      "Employer Website": "https://www.cuh.hse.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/cork-university-hospital-job-vacancies.jpg",
+      "employer": "Cork University Hospital",
+      "website": "https://www.cuh.hse.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/cork-university-hospital-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Corporate Jobs",
-      "Employer Website": "",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Corporate-Job-Vacancies.jpg",
+      "employer": "Corporate Jobs",
+      "website": "",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Corporate-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Cumas New Ross",
-      "Employer Website": "http://www.cumas.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Cumas-New-Ross-Job-Vacancies.jpg",
+      "employer": "Cumas New Ross",
+      "website": "http://www.cumas.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Cumas-New-Ross-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Enable Ireland",
-      "Employer Website": "https://enableireland.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Enable-Ireland-Job-Vacancies.jpg",
+      "employer": "Enable Ireland",
+      "website": "https://enableireland.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Enable-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Fastway Couriers",
-      "Employer Website": "https://www.fastway.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Fastway-Couriers-Job-Vacancies.jpg",
+      "employer": "Fastway Couriers",
+      "website": "https://www.fastway.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Fastway-Couriers-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Galway University Hospital",
-      "Employer Website": "https://www.saolta.ie/hospital/university-hospital-galway",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Galway-University-Hospital-Job-Vacancies.jpg",
+      "employer": "Galway University Hospital",
+      "website": "https://www.saolta.ie/hospital/university-hospital-galway",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Galway-University-Hospital-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "An Garda Síochána",
-      "Employer Website": "https://garda.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Garda-Job-Vacancies.jpg",
+      "employer": "An Garda Síochána",
+      "website": "https://garda.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Garda-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Hastings Insurance",
-      "Employer Website": "https://www.hastings.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Hastings-Insurance-Job-Vacancies.jpg",
+      "employer": "Hastings Insurance",
+      "website": "https://www.hastings.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Hastings-Insurance-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Health and Safety Authority",
-      "Employer Website": "https://hsa.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2024/12/the-health-and-safety-authority-job-vacancies.webp",
+      "employer": "Health and Safety Authority",
+      "website": "https://hsa.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2024/12/the-health-and-safety-authority-job-vacancies.webp",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "HSE - Health Service Executive",
-      "Employer Website": "https://hse.ie",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/HSE-Job-Vacancies-2.jpg",
+      "employer": "HSE - Health Service Executive",
+      "website": "https://hse.ie",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/HSE-Job-Vacancies-2.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Irish HomeCare",
-      "Employer Website": "https://irishhomecare.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Irish-HomeCare-Job-Vacancies.jpg",
+      "employer": "Irish HomeCare",
+      "website": "https://irishhomecare.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Irish-HomeCare-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Liberty Dream Care Overseas Study and Placement Limited",
-      "Employer Website": "https://libertydreamcare.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Liberty-Dream-Care-Ireland-Jobs.jpg",
+      "employer": "Liberty Dream Care Overseas Study and Placement Limited",
+      "website": "https://libertydreamcare.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Liberty-Dream-Care-Ireland-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Muiriosa Foundation",
-      "Employer Website": "https://www.muiriosa.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/09/Muiriosa-Foundation-Job-Vacancies.jpg",
+      "employer": "Muiriosa Foundation",
+      "website": "https://www.muiriosa.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/09/Muiriosa-Foundation-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Office of Public Works",
-      "Employer Website": "https://www.gov.ie/en/office-of-public-works/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2024/12/office-of-public-works-job-vacancies.webp",
+      "employer": "Office of Public Works",
+      "website": "https://www.gov.ie/en/office-of-public-works/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2024/12/office-of-public-works-job-vacancies.webp",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Optum Ireland",
-      "Employer Website": "https://www.optum.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Optum-Ireland-Job-Vacancies.jpg",
+      "employer": "Optum Ireland",
+      "website": "https://www.optum.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Optum-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Power Right Fire Energy & Security",
-      "Employer Website": "https://www.powerright.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Power-Right-Job-Vacancies.jpg",
+      "employer": "Power Right Fire Energy & Security",
+      "website": "https://www.powerright.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Power-Right-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "PricewaterhouseCoopers",
-      "Employer Website": "https://www.pwc.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/PricewaterhouseCoopers-PWC-Job-Vacancies.jpg",
+      "employer": "PricewaterhouseCoopers",
+      "website": "https://www.pwc.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/PricewaterhouseCoopers-PWC-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Private Sector Jobs",
-      "Employer Website": "",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/07/private-sector-job-vacancies.jpg",
+      "employer": "Private Sector Jobs",
+      "website": "",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/07/private-sector-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Roscommon County Council",
-      "Employer Website": "https://www.roscommoncoco.ie/en/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Roscommon-County-Council-Jobs.jpg",
+      "employer": "Roscommon County Council",
+      "website": "https://www.roscommoncoco.ie/en/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Roscommon-County-Council-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Roscommon University Hospital",
-      "Employer Website": "https://www.saolta.ie/hospital/ruh",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Roscommon-University-Hospital-Job-Vacancies.jpg",
+      "employer": "Roscommon University Hospital",
+      "website": "https://www.saolta.ie/hospital/ruh",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Roscommon-University-Hospital-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "ShannonDoc",
-      "Employer Website": "https://www.shannondoc.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/ShannonDoc-Job-Vacancies.jpg",
+      "employer": "ShannonDoc",
+      "website": "https://www.shannondoc.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/ShannonDoc-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Sligo County Council",
-      "Employer Website": "https://www.sligococo.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2024/12/Sligo-County-Council-Job-Vacancies.webp",
+      "employer": "Sligo County Council",
+      "website": "https://www.sligococo.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2024/12/Sligo-County-Council-Job-Vacancies.webp",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Sligo Southern Hotel",
-      "Employer Website": "https://www.sligosouthernhotel.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Sligo-Southern-Hotel-Job-Vacancies.jpg",
+      "employer": "Sligo Southern Hotel",
+      "website": "https://www.sligosouthernhotel.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Sligo-Southern-Hotel-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Sligo University Hospital",
-      "Employer Website": "https://www2.hse.ie/services/hospitals/sligo-university-hospital/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/sligo-university-hospital-job-vacancies.jpg",
+      "employer": "Sligo University Hospital",
+      "website": "https://www2.hse.ie/services/hospitals/sligo-university-hospital/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/sligo-university-hospital-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Smyths Toy Superstores",
-      "Employer Website": "https://www.smythstoys.com/ie/en-ie",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/09/Smyths-Toys-Job-Vacancies.jpg",
+      "employer": "Smyths Toy Superstores",
+      "website": "https://www.smythstoys.com/ie/en-ie",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/09/Smyths-Toys-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Spotify",
-      "Employer Website": "https://spotify.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Spotify-Job-Vacancies.jpg",
+      "employer": "Spotify",
+      "website": "https://spotify.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Spotify-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "SSE Airtricity",
-      "Employer Website": "https://www.sseairtricity.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Sse-Airtricity-Job-Vacancies.jpg",
+      "employer": "SSE Airtricity",
+      "website": "https://www.sseairtricity.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Sse-Airtricity-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Subway",
-      "Employer Website": "https://www.subway.com/en-ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Subway-Job-Vacancies.jpg",
+      "employer": "Subway",
+      "website": "https://www.subway.com/en-ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Subway-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Tata Consultancy Services Ireland",
-      "Employer Website": "https://www.tcs.com/who-we-are/worldwide/uk",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Tata-Consultancy-Services-Ireland-Job-Vacancies.jpg",
+      "employer": "Tata Consultancy Services Ireland",
+      "website": "https://www.tcs.com/who-we-are/worldwide/uk",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Tata-Consultancy-Services-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Tusla",
-      "Employer Website": "https://tusla.ie",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/08/tusla-job-vacancies.jpg",
+      "employer": "Tusla",
+      "website": "https://tusla.ie",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/08/tusla-job-vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "University Hospital Waterford",
-      "Employer Website": "https://www2.hse.ie/services/hospitals/university-hospital-waterford/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/University-Hospital-Waterford-Job-Vacancies.jpg",
+      "employer": "University Hospital Waterford",
+      "website": "https://www2.hse.ie/services/hospitals/university-hospital-waterford/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/University-Hospital-Waterford-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "UPMC",
-      "Employer Website": "https://upmc.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/UPMC-Jobs.jpg",
+      "employer": "UPMC",
+      "website": "https://upmc.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/UPMC-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Zurich",
-      "Employer Website": "https://www.zurich.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Zurich-Jobs.jpg",
+      "employer": "Zurich",
+      "website": "https://www.zurich.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Zurich-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "University Hospital Limerick",
-      "Employer Website": "https://www2.hse.ie/services/hospitals/university-hospital-limerick/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/University-Hospital-Limerick-Job-Vacancies.jpg",
+      "employer": "University Hospital Limerick",
+      "website": "https://www2.hse.ie/services/hospitals/university-hospital-limerick/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/University-Hospital-Limerick-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Letterkenny University Hospital",
-      "Employer Website": "https://www2.hse.ie/services/hospitals/letterkenny-university-hospital/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Letterkenny-University-Hospital-Job-Vacancies.jpg",
+      "employer": "Letterkenny University Hospital",
+      "website": "https://www2.hse.ie/services/hospitals/letterkenny-university-hospital/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Letterkenny-University-Hospital-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Comfort Keepers Ireland",
-      "Employer Website": "https://comfortkeepers.ie/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Comfort-Keepers-Ireland-Job-Vacancies.jpg",
+      "employer": "Comfort Keepers Ireland",
+      "website": "https://comfortkeepers.ie/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Comfort-Keepers-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Dunness Stores",
-      "Employer Website": "https://www.dunnesstores.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/10/Dunness-Stores-Jobs.jpg",
+      "employer": "Dunness Stores",
+      "website": "https://www.dunnesstores.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/10/Dunness-Stores-Jobs.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "CPL Recruitment",
-      "Employer Website": "https://www.cpl.com/ie",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/CPL-Recruitment-Job-Vacancies.jpg",
+      "employer": "CPL Recruitment",
+      "website": "https://www.cpl.com/ie",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/CPL-Recruitment-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "TWO INTO THREE LIMITED",
-      "Employer Website": "https://2into3.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/TWO-INTO-THREE-LIMITED-Job-Vacancies.jpg",
+      "employer": "TWO INTO THREE LIMITED",
+      "website": "https://2into3.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/TWO-INTO-THREE-LIMITED-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
       "Timestamp": "2025-11-07T11:39:00.000Z",
-      "Employer Name": "Sodexo Ireland",
-      "Employer Website": "https://ie.sodexo.com/",
-      "Employer Image URL": "https://jobvacancies.ie/wp-content/uploads/2025/11/Sodexo-Ireland-Job-Vacancies.jpg",
+      "employer": "Sodexo Ireland",
+      "website": "https://ie.sodexo.com/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Sodexo-Ireland-Job-Vacancies.jpg",
       "Employer Description": ""
     }
   ]
