@@ -1,11 +1,11 @@
 {
   "ok": true,
   "format": "json",
-  "count": 55,
+  "count": 56,
   "meta": {
-    "total": 55,
+    "total": 56,
     "start": 0,
-    "end": 55
+    "end": 56
   },
   "data": [
     {
@@ -48,6 +48,13 @@
       "employer": "Bus Eireann",
       "website": "https://www.buseireann.ie/",
       "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Bus-Eireann-Job-Vacancies.jpg",
+      "Employer Description": ""
+    },
+    {
+      "Timestamp": "2025-11-14T12:54:19.472Z",
+      "employer": "Abbott Ireland",
+      "website": "https://www.ie.abbott/",
+      "logo": "https://jobvacancies.ie/wp-content/uploads/2025/11/Abbott-Job-Vacancies.jpg",
       "Employer Description": ""
     },
     {
